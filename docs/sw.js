@@ -5,13 +5,14 @@ const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    // '/',
+    '/',
     'index.html',
     'styles.f0080354005001a24de8.css',
     'img/favicon.png',
     'js/app.js',
     'js/sw-utils.js',
-    'espiral.d88986dab45b618db474.png'
+    'espiral.d88986dab45b618db474.png',
+    'manifest.json'
 ];
 
 const APP_SHELL_INMUTABLE = [
