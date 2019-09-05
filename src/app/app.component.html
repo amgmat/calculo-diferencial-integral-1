@@ -1,0 +1,47 @@
+<header>
+    <div class="contenedor">
+        <nav class="menu">
+
+            <ul>
+                <li>
+                    <a [routerLink]="['/inicio']" [routerLinkActive]="['actived']">Inicio</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/contacto']" [routerLinkActive]="['actived']">Contacto</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/bibliografia']" [routerLinkActive]="['actived']">Bibliografia</a>
+                </li>
+                <!-- <li>
+                     <a [routerLink]="['/guias']" [routerLinkActive]="['actived']">Guías</a>
+
+                </li> -->
+                <li id="guias" class="submenu"><a href="#">Guías </a>
+                    <ul class="children">
+                        <li><a [routerLink]="['/guia-1']">Guía 1</a></li>
+                        <li><a [routerLink]="['/guia-2']">Guía 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="titulo">
+            <h1>{{title}}</h1>
+        </div>
+
+
+    </div>
+</header>
+
+
+<section>
+    <router-outlet>
+    </router-outlet>
+</section>
+
+
+<footer>
+    <div class="copyright">
+        <p>Copyright 2019</p>
+    </div>
+</footer>
