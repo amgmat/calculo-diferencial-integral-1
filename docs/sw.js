@@ -1,8 +1,8 @@
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v1';
+const STATIC_CACHE = 'static-v2';
 const DYNAMIC_CACHE = 'dynamic-v1';
-const INMUTABLE_CACHE = 'inmutable-v1';
+const INMUTABLE_CACHE = 'inmutable-v2';
 
 const APP_SHELL = [
     '/',
@@ -12,7 +12,15 @@ const APP_SHELL = [
     'js/app.js',
     'js/sw-utils.js',
     'espiral.d88986dab45b618db474.png',
-    'manifest.json'
+    'manifest.json',
+    'fractal3.6ebfe6f8c155c4fdd0d0',
+    'main-es5.385e4f3e86eabadb47d6',
+    'main-es2015.a65b24ad87e533415ab5',
+    'polyfills-es5.a5ec2c5f9c4a8eba6d56',
+    'polyfills-es2015.9aaba84b721d907ae919',
+    'runtime-es5.ee2dcdf2e59a31c9da78',
+    'runtime-es2015.27965c48d77c449cb93c',
+    'scripts.859e64cef1ef944f8beb'
 ];
 
 const APP_SHELL_INMUTABLE = [
