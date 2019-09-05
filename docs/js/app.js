@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = 'calculo-diferencial-integral-I/sw.js';
+var swLocation = '/calculo-diferencial-integral-I/sw.js';
 
 if (navigator.serviceWorker) {
 
