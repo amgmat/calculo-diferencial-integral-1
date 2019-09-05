@@ -1,9 +1,9 @@
 {
-    "short_name": "Twittor",
-    "name": "Twittor para héroes",
+    "short_name": "Cálculo",
+    "name": "Cálculo Diferencial e Integral I",
     "start_url": "index.html",
-    "background_color": "#3498db",
-    "theme_color": "#3498db",
+    "background_color": "#650E07",
+    "theme_color": "#650E07",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [{
@@ -41,10 +41,10 @@
             "type": "image/png",
             "sizes": "384x384"
         },
-        {
-            "src": "img/icons/icon-512x512.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
+        // {
+        //     "src": "img/icons/icon-512x512.png",
+        //     "type": "image/png",
+        //     "sizes": "512x512"
+        // }
     ]
 }
