@@ -271,11 +271,11 @@ header .sitios .enlaces li a:hover {
         font-size: 18px;
     }
     .contacto .correos {
-        font-size: 18px;
-        padding: 10px 20px;
+        font-size: 16px;
+        padding: 10px 40px;
     }
     .contacto .correos p {
-        margin: 8px;
+        margin: 3px;
     }
     .main iframe {
         height: 500px;
@@ -311,12 +311,13 @@ header .sitios .enlaces li a:hover {
         padding: 5px 5px;
         /* top: 60%; */
     }
-    .webs .sitios {
+    .webs .sitios,
+    .contacto {
         padding-bottom: 45px;
     }
     .webs .sitios .enlaces {
         font-size: 14px;
-        margin: 5px;
+        /* margin: 2px; */
     }
     .contacto .correos {
         font-size: 16px;
@@ -330,7 +331,7 @@ header .sitios .enlaces li a:hover {
         width: 100%;
         color: #fff;
         position: absolute;
-        top: 45%;
+        top: 50%;
     }
     .inicio .mensajem .bienvenidam {
         text-align: center;

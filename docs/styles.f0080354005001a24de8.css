@@ -285,6 +285,9 @@ header .tareas h2 {
         font-size: 14px;
         margin: 5px
     }
+    .contacto {
+        padding-bottom: 45px;
+    }
     .contacto .correos {
         font-size: 16px;
         padding-left: 5px
@@ -297,7 +300,7 @@ header .tareas h2 {
         width: 100%;
         color: #fff;
         position: absolute;
-        top: 45%
+        top: 50%
     }
     .inicio .mensajem .bienvenidam {
         text-align: center;
