@@ -100,7 +100,8 @@ header .sitios .enlaces li a:hover {
     text-align: center;
 }
 
-.inicio {
+.inicio,
+.webs {
     background-size: 90%;
     background-attachment: fixed;
     background-position: center 0;
@@ -308,7 +309,7 @@ header .sitios .enlaces li a:hover {
     }
     .webs .sitios {
         font-size: 14px;
-        padding: 5px 5px;
+        padding: 3px 3px;
         /* top: 60%; */
     }
     .webs .sitios,

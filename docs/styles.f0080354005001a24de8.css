@@ -85,7 +85,8 @@ header .tareas h2 {
     text-align: center
 }
 
-.inicio {
+.inicio,
+.webs {
     background-size: 90%;
     background-attachment: fixed;
     background-position: center 0;
@@ -135,8 +136,12 @@ header .tareas h2 {
 .webs .sitios .enlaces {
     color: #fff;
     font-size: 25px;
-    padding: 15px;
+    /* padding: 15px; */
     text-decoration: none
+}
+
+.webs .sitios h2 {
+    margin: 20px;
 }
 
 .webs .sitios p {
@@ -162,6 +167,10 @@ header .tareas h2 {
 
 .guias .tareas p {
     margin: 10px
+}
+
+.webs .sitios {
+    width: 90%;
 }
 
 .main,
