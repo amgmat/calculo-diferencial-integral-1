@@ -85,12 +85,18 @@ header .tareas h2 {
     text-align: center
 }
 
-.inicio,
+.inicio {
+    background-size: 90%;
+    background-attachment: fixed;
+    background-position: center 0;
+    height: 360px;
+}
+
 .webs {
     background-size: 90%;
     background-attachment: fixed;
     background-position: center 0;
-    height: 360px
+    height: 340px;
 }
 
 .inicio .mensaje {
@@ -109,11 +115,24 @@ header .tareas h2 {
     font-size: 25px
 }
 
+.contacto,
+.guias {
+    background-size: 90%;
+    background-attachment: fixed;
+    background-position: center 0;
+    height: 360px
+}
+
 .contacto .correos {
     width: 100%;
     color: #fff;
     font-size: 20px;
-    padding: 20px 30px
+    padding: 20px 30px;
+    top: -10px;
+}
+
+.contacto .correos h2 {
+    margin: 10px;
 }
 
 .contacto .correos p {
@@ -128,7 +147,7 @@ header .tareas h2 {
     width: 100%;
     color: #fff;
     font-size: 22px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     margin-top: 20px;
     margin-bottom: 20px
 }
@@ -256,7 +275,7 @@ header .tareas h2 {
         padding: 10px 20px
     }
     .contacto .correos p {
-        margin: 8px
+        /* margin: 8px */
     }
     .main iframe {
         height: 500px;
@@ -299,7 +318,8 @@ header .tareas h2 {
     }
     .contacto .correos {
         font-size: 14px;
-        padding-left: 5px
+        padding: 5px 10px;
+        padding-left: 5px;
     }
     .inicio .mensaje {
         display: none
@@ -319,7 +339,7 @@ header .tareas h2 {
         padding: 30px
     }
     .guias .tareas {
-        font-size: 16px
+        font-size: 14px
     }
     .main iframe {
         height: 390px;
