@@ -20,7 +20,9 @@ const APP_SHELL = [
     'polyfills-es2015.9aaba84b721d907ae919',
     'runtime-es5.ee2dcdf2e59a31c9da78',
     'runtime-es2015.27965c48d77c449cb93c',
-    'scripts.859e64cef1ef944f8beb'
+    'scripts.859e64cef1ef944f8beb',
+    'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview',
+    'https://drive.google.com/file/d/1G95suzZvOJmrPBahBtH6lDXJYjuv2EE2/preview'
 ];
 
 const APP_SHELL_INMUTABLE = [
@@ -64,20 +66,22 @@ self.addEventListener('active', e => {
 
 self.addEventListener('fetch', e => {
 
-    const respuesta = caches.match(e.request).then(res => {
+    let respuesta = caches.match(e.request).then(res => {
 
         if (res) {
+
+            actualizaCacheStatico(STATIC_CACHE, e.request, APP_SHELL_INMUTABLE);
             return res;
+
         } else {
-            // console.log(e.request.url);
+
             return fetch(e.request).then(newRes => {
 
                 return actualizaCacheDinamico(DYNAMIC_CACHE, e.request, newRes);
+
             });
+
         }
-
-
-
 
     });
 
