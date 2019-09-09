@@ -127,7 +127,7 @@ header .tareas h2 {
     width: 100%;
     color: #fff;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 40px 30px;
     top: -10px;
 }
 
@@ -136,7 +136,7 @@ header .tareas h2 {
 }
 
 .contacto .correos p {
-    margin: 5px
+    margin: 5px;
 }
 
 .contacto .correos a {
@@ -272,11 +272,11 @@ header .tareas h2 {
     }
     .contacto .correos {
         font-size: 18px;
-        padding: 10px 20px
+        /* padding: 10px 20px; */
     }
-    .contacto .correos p {
-        /* margin: 8px */
-    }
+    /* .contacto .correos p {
+         margin: 8px 
+    } */
     .main iframe {
         height: 500px;
         width: 400px
@@ -318,7 +318,7 @@ header .tareas h2 {
     }
     .contacto .correos {
         font-size: 14px;
-        padding: 5px 10px;
+        /* padding: 5px 10px; */
         padding-left: 5px;
     }
     .inicio .mensaje {
