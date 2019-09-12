@@ -1,5 +1,6 @@
-import {ModuleWithProviders} from '@angular/core';
+import { ModuleWithProviders } from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
+
 
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
@@ -16,9 +17,13 @@ const appRoutes: Routes = [
     {path: 'bibliografia', component: BibliografiaComponent},
     {path: 'guias', component: GuiasComponent},
     {path: 'guia-1', component: Guia1Component},
-    {path: 'guia-2', component: Guia2Component}
+    {path: 'guia-2', component: Guia2Component},
+    {path: '**', pathMatch: 'full', redirectTo: 'inicio'}
+
 
 ];
 
+
+
 export const appRoutingProviders: any[] = [];
-export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes)
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes, { useHash: true})

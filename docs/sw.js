@@ -1,7 +1,7 @@
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v3';
-const DYNAMIC_CACHE = 'dynamic-v3';
+const STATIC_CACHE = 'static-v2';
+const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
@@ -14,20 +14,22 @@ const APP_SHELL = [
     'espiral.d88986dab45b618db474.png',
     'manifest.json',
     'fractal3.6ebfe6f8c155c4fdd0d0',
-    'main-es5.385e4f3e86eabadb47d6',
-    'main-es2015.a65b24ad87e533415ab5',
-    'polyfills-es5.a5ec2c5f9c4a8eba6d56',
-    'polyfills-es2015.9aaba84b721d907ae919',
-    'runtime-es5.ee2dcdf2e59a31c9da78',
-    'runtime-es2015.27965c48d77c449cb93c',
-    'scripts.859e64cef1ef944f8beb',
-    'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview',
-    'https://drive.google.com/file/d/1G95suzZvOJmrPBahBtH6lDXJYjuv2EE2/preview'
+    'main-es5.c0a0330fb736a72f6480.js',
+    'main-es2015.5e32f5b52c0a85c97005.js',
+    'polyfills-es5.a5ec2c5f9c4a8eba6d56.js',
+    'polyfills-es2015.9aaba84b721d907ae919.js',
+    'runtime-es5.ee2dcdf2e59a31c9da78.js',
+    'runtime-es2015.27965c48d77c449cb93c.js',
+    'scripts.859e64cef1ef944f8beb.js'
 ];
 
 const APP_SHELL_INMUTABLE = [
     'js/libs/plugins/mdtoast.min.css',
     'js/libs/plugins/mdtoast.min.js'
+    // 'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview',
+
+    // 'https://drive.google.com/file/d/1G95suzZvOJmrPBahBtH6lDXJYjuv2EE2/preview'
+
 ];
 
 self.addEventListener('install', e => {
