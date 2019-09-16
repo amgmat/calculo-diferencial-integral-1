@@ -1,7 +1,7 @@
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v5';
-const DYNAMIC_CACHE = 'dynamic-v1';
+const STATIC_CACHE = 'static-v6';
+const DYNAMIC_CACHE = 'dynamic-v2';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
@@ -46,7 +46,7 @@ self.addEventListener('install', e => {
 
 });
 
-self.addEventListener('active', e => {
+self.addEventListener('activate', e => {
 
     const respuesta = caches.keys().then(keys => {
         keys.forEach(key => {
